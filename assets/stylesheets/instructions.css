@@ -1,0 +1,19 @@
+#container {
+  height: 400px;
+  max-width: 80%;
+  margin: 24px auto;
+}
+
+#instructions__content___list {
+  list-style:decimal;
+}
+
+#footer {
+  background-color: #414141;
+  color: #fff;
+  bottom: 0;
+  padding: 24px 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
