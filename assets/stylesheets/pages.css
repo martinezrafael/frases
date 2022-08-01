@@ -24,10 +24,16 @@
   margin-bottom: 16px;
 }
 
+#content__giphy {
+  height: 320px;
+  width: 480px;
+}
+
+
 #content__giphy iframe {
   border-radius: 40px;
-  height: 480px;
-  width: 480px;
+  height: 100%;
+  width: 100%;
 }
 
 #footer {
