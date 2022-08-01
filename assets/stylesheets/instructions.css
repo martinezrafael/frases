@@ -1,19 +1,46 @@
 #container {
-  height: 400px;
   max-width: 80%;
   margin: 24px auto;
+}
+
+#instructions__header h2 {
+  font-size: 52px;
+  font-weight: bold;
+  margin-bottom: 16px;
 }
 
 #instructions__content___list {
   list-style:decimal;
 }
 
+.instructions__content___item {
+  padding: 24px 0;
+}
+
+.instructions__content___item img {
+  margin: 12px 0;
+  width: 90%;
+}
+
 #footer {
   background-color: #414141;
   color: #fff;
-  bottom: 0;
   padding: 24px 0;
-  position: absolute;
   text-align: center;
   width: 100%;
+}
+
+
+#back__home a {
+  text-decoration: none;
+  color: blueviolet;
+
+  transition: all ease-in-out .2s;
+}
+
+#back__home a:hover {
+  background-color: blueviolet;
+  border-radius: 20px;
+  padding: 5px;
+  color: #fff;
 }
