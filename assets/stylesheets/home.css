@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+html,
+body {
+  background-color: #fbf7f5;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+#header {
+  padding: 24px 0;
+}
+
+#header__container {
+  max-width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+#header__container h2 {
+  font-family: "Mouse Memoirs", sans-serif;
+  font-size: 52px;
+  margin-bottom: 16px;
+}
+
+#header__container p {
+  font-size: 22px;
+}
+
+#container {
+  max-width: 80%;
+  margin: auto;
+}
+
+#options {
+  padding: 24px 0;
+}
+
+#options__navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.options__navigation___item {
+  background-color: blueviolet;
+  border-radius: 20px;
+  color: #fff;
+  padding: 12px;
+  text-decoration: none;
+
+  transition: all ease-in-out 0.2s;
+}
+
+.options__navigation___item:hover {
+  background-color: #429b46;
+}
+
+#instructions {
+  font-size: 18px;
+  padding: 24px 0;
+  text-align: center;
+}
+
+#instructions a {
+  text-decoration: none;
+  color: blueviolet;
+
+  transition: all ease-in-out .2s;
+}
+
+#instructions a:hover {
+  background-color: blueviolet;
+  border-radius: 20px;
+  padding: 5px;
+  color: #fff;
+}
+
+#footer {
+  background-color: #414141;
+  color: #fff;
+  bottom: 0;
+  padding: 24px 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+@media screen and (max-width: 400px) {
+  
+  #header__container {
+    max-width: 100%;
+  }
+
+  #header__container h2 {
+    font-size: 70px;
+  }
+
+  #header__container p {
+    font-size: 28px;
+  }
+
+  #options__navigation {
+    flex-direction: column;
+  }
+
+  .options__navigation___item {
+    padding: 24px;
+  }
+  
+}
